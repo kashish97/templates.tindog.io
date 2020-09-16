@@ -125,3 +125,46 @@ h2{
 .pricing-col{
     padding: 3% 2%;
 }
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+/* CTA Section */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 15% 5%;
+}
+
+.cta-title{
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+}
+
+#footer{
+    padding: 7% 15% 7% 15%;
+    text-align: center;
+}
+
+.copyright{
+    color:#8f8f8f;
+    padding-top: 3%;
+}
+
+.social-kit{
+    padding-right: 1.5%;
+}
